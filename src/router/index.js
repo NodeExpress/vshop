@@ -10,7 +10,7 @@ Vue.use(Router)
 
 export default new Router({
   // linkActiveClass:"abc",
-  mode:history,
+  // mode:history,
   routes: [
     { path: '/', redirect: '/home' },
     { path: '/home', component: Home, meta: { keepAlive: true } },
